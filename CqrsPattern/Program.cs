@@ -9,6 +9,8 @@ builder.Services.AddScoped<GetStudentByIdQueryHandler>();
 var app = builder.Build();
 
 
+app.UseRouting();
+
 app.UseEndpoints(endpoints =>
 {
 	endpoints.MapControllers();
