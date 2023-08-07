@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "soKcEVehwV0iu3Bb6gjx1jITZWSDoILI8SrherLm8Bnzyaw29mcHWMeGxv0XRpJMCMg8hoo8Jek5LJ2LXyfdCA==",
+  "dgSpecHash": "OMTkNxVQAu6CPquuR2FXaSmLLaaEyvqcjEJKaUPxtHtZmgSBGeT/lO93YpLN2u14CIDRuiilzezEyTXRixY4kQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
+  "projectFilePath": "C:\\Users\\fkucukali\\source\\repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fkucukali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.20\\microsoft.aspnetcore.jsonpatch.6.0.20.nupkg.sha512",

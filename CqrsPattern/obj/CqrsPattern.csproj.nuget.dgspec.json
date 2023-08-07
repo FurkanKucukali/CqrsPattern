@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj": {}
+    "C:\\Users\\fkucukali\\source\\repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj": {
+    "C:\\Users\\fkucukali\\source\\repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
+        "projectUniqueName": "C:\\Users\\fkucukali\\source\\repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
         "projectName": "CqrsPattern",
-        "projectPath": "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
+        "projectPath": "C:\\Users\\fkucukali\\source\\repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
         "packagesPath": "C:\\Users\\fkucukali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\obj\\",
+        "outputPath": "C:\\Users\\fkucukali\\source\\repos\\CqrsPattern\\CqrsPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fkucukali\\AppData\\Roaming\\NuGet\\NuGet.Config",
