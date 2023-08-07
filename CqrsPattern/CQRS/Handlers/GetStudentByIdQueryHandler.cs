@@ -1,4 +1,6 @@
-﻿using CqrsPattern.Data;
+﻿using CqrsPattern.CQRS.Queries;
+using CqrsPattern.CQRS.Results;
+using CqrsPattern.Data;
 
 namespace CqrsPattern.CQRS.Handlers
 {

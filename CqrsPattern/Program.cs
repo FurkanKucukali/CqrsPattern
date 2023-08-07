@@ -1,4 +1,4 @@
-using CqrsPattern;
+using CqrsPattern.CQRS.Handlers;
 using CqrsPattern.Data;
 using Microsoft.EntityFrameworkCore;
 

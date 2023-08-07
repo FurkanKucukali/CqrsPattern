@@ -1,4 +1,6 @@
-﻿using CqrsPattern.Data;
+﻿using CqrsPattern.CQRS.Queries;
+using CqrsPattern.CQRS.Results;
+using CqrsPattern.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace CqrsPattern.CQRS.Handlers
