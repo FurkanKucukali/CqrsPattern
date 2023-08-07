@@ -7,18 +7,27 @@ namespace CqrsPattern.Controllers
 	[ApiController]
 	public class StudentsController : ControllerBase
 	{
-		private readonly GetStudentByIdQueryHandler _handler;
+		private readonly GetStudentByIdQueryHandler _getStudentByIdQueryHandler; 
+		private readonly GetStudentsQueryHandler _getStudentsQueryHandler;
 
-		public StudentsController(GetStudentByIdQueryHandler handler)
+		public StudentsController(GetStudentByIdQueryHandler getStudentByIdQueryHandler, GetStudentsQueryHandler getStudentsQueryHandler)
 		{
-			_handler = handler;
+			_getStudentByIdQueryHandler = getStudentByIdQueryHandler;
+			_getStudentsQueryHandler = getStudentsQueryHandler;
 		}
 
 		[HttpGet("{id}")]
 		public IActionResult GetStudent(int id)
 		{
-			var result = _handler.Handle(new GetStudentByIdQuery(id));
+			var result = _getStudentByIdQueryHandler.Handle(new GetStudentByIdQuery(id));
 			return Ok (result);
+		}
+		[HttpGet]
+		public IActionResult GetAll()
+		{
+			var result = _getStudentsQueryHandler.Handle(new GetStudentsQuery());
+			return Ok (result);
+
 		}
 	}
 }

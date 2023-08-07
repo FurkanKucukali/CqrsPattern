@@ -2165,19 +2165,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Furkan\\.nuget\\packages\\": {}
+    "C:\\Users\\fkucukali\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
+      "projectUniqueName": "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
       "projectName": "CqrsPattern",
-      "projectPath": "C:\\Users\\Furkan\\source\\repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
-      "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Furkan\\source\\repos\\CqrsPattern\\CqrsPattern\\obj\\",
+      "projectPath": "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\CqrsPattern.csproj",
+      "packagesPath": "C:\\Users\\fkucukali\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fkucukali\\Source\\Repos\\CqrsPattern\\CqrsPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Furkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fkucukali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2247,7 +2247,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
