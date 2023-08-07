@@ -14,6 +14,7 @@ namespace CqrsPattern.CQRS.Handlers
         }
         public GetStudentByIdQueryResult Handle(GetStudentByIdQuery query)
         {
+            
             var student = _studentContext.Set<Student>().Find(query.Id);
             return new GetStudentByIdQueryResult
             {
