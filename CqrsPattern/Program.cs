@@ -9,6 +9,8 @@ builder.Services.AddControllers().AddNewtonsoftJson(opt => { opt.SerializerSetti
 builder.Services.AddScoped<GetStudentByIdQueryHandler>();
 builder.Services.AddScoped<GetStudentsQueryHandler>();
 builder.Services.AddScoped<CreateStudentCommandHandler>();
+builder.Services.AddScoped<RemoveStudentCommandHandler>();
+builder.Services.AddScoped<UpdateStudentCommandHandler>();
 var app = builder.Build();
 
 
